@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+  background-color: #242424;
+  border-radius: 8px;
+  padding: 2em;
+  margin: 0;
+}
+
+.header > h1 {
+  height: auto;
+  padding: 0;
+  font-size: 2em;
+  color: aliceblue;
+}
+
+.header > div {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  gap: 2em;
+}
